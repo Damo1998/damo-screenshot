@@ -1,13 +1,13 @@
-package com.example;
+package com.damoscreenshot;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class DamoScreenshotPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(DamoScreenshotPlugin.class);
 		RuneLite.main(args);
 	}
 }
